@@ -1,11 +1,13 @@
-#ifndef ELF2D_H  // ELFMATH_H°¡ Á¤ÀÇµÇ¾î ÀÖÁö ¾ÊÀ¸¸é
-#define ELF2D_H  // ELFMATH_H¸¦ Á¤ÀÇÇÏ°í ¾Æ·¡ ÄÚµå¸¦ ÄÄÆÄÀÏ
+#ifndef ELF2D_H  // ELFMATH_Hê°€ ì •ì˜ë˜ì–´ ìˆì§€ ì•Šìœ¼ë©´
+#define ELF2D_H  // ELFMATH_Hë¥¼ ì •ì˜í•˜ê³  ì•„ë˜ ì½”ë“œë¥¼ ì»´íŒŒì¼
 
 void Elf2DClearScreen(char* Buffer, int width, int height);
 
 void Elf2DDrawBuffer(char* Buffer);
 
 void Elf2DDrawLine(int x1, int y1, int x2, int y2, char* Buffer, int width, int height);
+
+void Elf2DDrawLine2(float x1, float y1, float x2, float y2, char* Buffer, int width, int height);
 
 void Elf2DInitScreen();
 
