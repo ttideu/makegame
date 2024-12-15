@@ -1,6 +1,0 @@
-﻿  game.c
-C:\Users\kihwan\source\repos\gm\gm\game.c(145,5): warning C4013: 'InitializeMovingEnemies'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\Users\kihwan\source\repos\gm\gm\game.c(149,9): warning C4013: 'UpdateAllMovingEnemies'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-  ui.c
-  코드를 생성하고 있습니다...
-  gm.vcxproj -> C:\Users\kihwan\source\repos\gm\x64\Debug\gm.exe
